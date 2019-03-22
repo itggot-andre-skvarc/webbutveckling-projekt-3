@@ -40,7 +40,7 @@ body{
 
 .wrapper{
     height: 88%;
-    background-color: hotpink;
+    background-color:grey;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 28% 28% 28%;
@@ -56,35 +56,65 @@ body{
 
 .box1{
     grid-area: box1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 198);
 }
 
 .box2{
     grid-area: box2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 198);
 }
 
 .box3{
     grid-area: box3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 198);
     
     
 }
 
 .box4{
     grid-area: box4;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 198);
 }
 
 .box5{
     grid-area: box5;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 198);
 }
 
 .box6{
     grid-area: box6;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 198);
 }
+
+.flipflop{
+    height: 100px;
+    width: 90px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
 
 .reklam{
     grid-area: reklam;
+    background-color: rebeccapurple;
 }
 
 
@@ -148,3 +178,64 @@ main{
     align-items: center;
 }
 
+.wrapper2{
+    height: 88%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12% 88%;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    grid-template-areas:
+    "dinaprodukter dinaprodukter" 
+    "produkt produkt" ; 
+
+
+}
+
+.produkt{
+    grid-area: produkt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.smiley{
+    height: 80%;
+    width: 80%;
+    background-color: crimson;
+
+
+}
+
+
+.dinaprodukter{
+    grid-area: dinaprodukter;
+    background-color: orange;
+}
+
+#pro1{
+
+}
+
+#pro2{
+
+}
+
+#pro3{
+
+}
+
+#pro4{
+
+}
+
+#pro5{
+
+}
+
+#pro6{
+
+}

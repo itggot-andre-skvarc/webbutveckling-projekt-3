@@ -8,7 +8,7 @@ header{
     grid-column-gap: 0px;
     grid-template-areas:
     "menyknapp welcome kundvagn";
-    
+    background-image: url(img/Palmer2.jpg);
     
 }
 
@@ -52,6 +52,85 @@ body{
     "box4 box5 box6";
     
 }
+.prisnamn1{
+    position: absolute;
+    justify-content: center;
+    margin-top: 18%;
+
+}
+
+.prisnamn2{
+    position: absolute;
+    justify-content: center;
+    margin-top: 18%;
+
+}
+
+.prisnamn3{
+    position: absolute;
+    justify-content: center;
+    margin-top: 18%;
+
+}
+
+.prisnamn4{
+    position: absolute;
+    justify-content: center;
+    margin-top: 18%;
+
+}
+
+.prisnamn5{
+    position: absolute;
+    justify-content: center;
+    margin-top: 18%;
+
+}
+
+.prisnamn6{
+    position: absolute;
+    justify-content: center;
+    margin-top: 18%;
+
+}
+
+.tooflanamn1{
+    position: absolute;
+    justify-content: center;
+    margin-top: -18%;
+}
+
+.tooflanamn2{
+    position: absolute;
+    justify-content: center;
+    margin-top: -18%;
+}
+
+.tooflanamn3{
+    position: absolute;
+    justify-content: center;
+    margin-top: -18%;
+}
+
+.tooflanamn4{
+    position: absolute;
+    justify-content: center;
+    margin-top: -18%;
+}
+
+.tooflanamn5{
+    position: absolute;
+    justify-content: center;
+    margin-top: -18%;
+}
+
+.tooflanamn6{
+    position: absolute;
+    justify-content: center;
+    margin-top: -18%;
+}
+
+
 
 
 .box1{
@@ -60,6 +139,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(218, 214, 198);
+
 }
 
 .box2{
@@ -115,6 +195,7 @@ body{
 .reklam{
     grid-area: reklam;
     background-color: rebeccapurple;
+    background-image: url(img/reklam2.jpg);
 }
 
 
@@ -158,6 +239,7 @@ main{
     top: 0;
     left: -99%;
     transition: left 0.3s;
+    background-color: rgb(218, 214, 198);
     
     
 }
@@ -167,6 +249,7 @@ main{
     left: 0 !important;
     bottom: 0;
     padding: 10px;
+    background-color: rgb(218, 214, 198);
 }
 
 .menyknapp{
@@ -217,25 +300,34 @@ main{
 }
 
 #pro1{
+    background-image: url(img/rookieflipflops.jpg);
 
 }
 
 #pro2{
+    background-image: url(img/Mammaflipflops.jpg);
 
 }
 
 #pro3{
+    background-image: url(img/Snabbaflipflops.jpg);
 
 }
 
 #pro4{
+    background-image: url(img/Pappaflipflops.jpg);
+
 
 }
 
 #pro5{
+    background-image: url(img/Ortendeluxflipflops.jpg);
+
 
 }
 
 #pro6{
+    background-image: url(img/Ortenflipflops.jpg);
+
 
 }
